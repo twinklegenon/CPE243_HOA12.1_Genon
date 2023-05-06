@@ -1,0 +1,3 @@
+---
+- name: Delete access rule that deny access from source to destination
+  shell: sudo ufw delete deny from 192.168.56.151
